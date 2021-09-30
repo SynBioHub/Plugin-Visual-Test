@@ -12,7 +12,7 @@ def status():
     return("The Visualisation Test Plugin Flask Server is up and running")
 
 
-@app.route("/evaluate", methods=["POST", "GET"])
+@app.route("/evaluate", methods=["POST"])
 def evaluate():
     data = request.get_json(force=True)
     rdf_type = data['type']
