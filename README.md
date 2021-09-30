@@ -1,5 +1,5 @@
 # Plugin-Visual-Test
-A very small test plugin to test the visualisation interface is working for SynBioHub. Could be the basis for python based visualisation plugins.
+A very small test plugin to test the visualisation interface is working for SynBioHub. Could be the basis for other python based visualisation plugins.
 
 # Install
 ## Using docker
