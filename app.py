@@ -65,7 +65,7 @@ def run():
         result = result.replace("URL_REPLACE", url)
         result = result.replace("URI_REPLACE", top_level_url)
         result = result.replace("INSTANCE_REPLACE", instance_url)
-        result = result.replace("SIZE_REPLACE", size)
+        result = result.replace("SIZE_REPLACE", str(size))
         result = result.replace("RDFTYPE_REPLACE", rdf_type)
         result = result.replace("SHALLOWSBOL_REPLACE", shallow_sbol)
 
