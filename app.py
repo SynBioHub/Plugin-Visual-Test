@@ -58,6 +58,7 @@ def run():
     filename = os.path.join(cwd, "Test.html")
 
     try:
+        # ~~~~~~~~~~~~ REPLACE THIS SECTION WITH OWN RUN CODE ~~~~~~~~~~~~~~~~~~~
         with open(filename, 'r') as htmlfile:
             result = htmlfile.read()
 
@@ -70,6 +71,7 @@ def run():
         result = result.replace("SHALLOWSBOL_REPLACE", shallow_sbol)
 
         result = result.replace("REQUEST_REPLACE", str(data))
+        # ~~~~~~~~~~~~~~~~~~~~~~~~~~ END SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
         return result
     except Exception as e:
